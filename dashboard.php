@@ -51,6 +51,8 @@
 
         <div style="justify-content: center;" class="row">
           
+
+            
           
             <a class="col-4 dash-card card p-3 rounded-5" style="width: 18rem;" href="notes/index.php">
             <img src="img/31.png" class="card-img-top" alt="..."/>
