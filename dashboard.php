@@ -37,6 +37,7 @@
     <img src="img/16.png" alt="Logo" width="150px" height="50px">
     <!-- <h1 style="color: wheat; margin-left: 10px;">TASK</h1> -->
   </a>
+
   <h3 class="sublogo">- Your Ultimate Notes and Task Management Solution -</h3>
 <div class="navbar">
   <a href="index.html">Home</a>
