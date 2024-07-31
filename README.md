@@ -1,5 +1,5 @@
 # Task : Notes & Task Management App
-Welcome to Task Done! 🎉
+Welcome to Task! 🎉
 
 Task is a powerful web application designed to help you stay organized and productive. Whether you're juggling personal tasks, managing projects, or keeping track of important notes, Task  has got you covered with its user-friendly interface and robust features.
 
@@ -21,6 +21,6 @@ Task is a powerful web application designed to help you stay organized and produ
 * Usage: Register an account, log in, and start adding tasks and notes. Explore the intuitive UI to manage your lists and stay on top of your to-dos.
 
 
-Thank you for choosing Task Done! We hope this app helps you stay organized and achieve your goals with ease. 🌟
+Thank you for choosing Task! We hope this app helps you stay organized and achieve your goals with ease. 🌟
 
 # Happy organizing! 🚀
