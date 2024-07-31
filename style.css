@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: #7393B3;
+}
+.imgmain{
+    width: 300px;
+    height: 300px;
+    display: block;
+    top: 50%;
+    left: 50;
+    border-radius: 50%;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+}
+
+.sublogo{
+    align-items: center;
+    font-size: 1.5em;
+    color: black;
+    user-select: none;
+}
+
+.navbar-brand{
+padding-right: 70px;
+}
+
+
+.navbar a {
+    position: relative;
+    font-size: 1.1em;
+    color: wheat;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    
+
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: wheat;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+    
+
+}
+
+.navbar a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+    
+}
+
+
+.login-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background: url('ee.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+} */
+
+.btn-primary{
+    width: 130px;
+    height: 50px;
+    background: white;
+    border: 2px solid #80461B;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #80461B;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s ease;
+
+}
+
+.btn-primary:hover {
+    background: #F2D2BD;
+    color: black;
+}
+
+.card-text {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    
+}
+
+.signUp-link p {
+color: black;
+
+}
+
+.signUp-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+   ;
+
+
+}
+
+.signUp-link p a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 45px 0;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-group input {
+    width: 320px;
+    height: 40px;
+    background:#EADDCA;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    padding:0 5px 0 45px;
+    border-bottom: 2px solid black;
+    transition: .5s;
+    
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    font-size: .8em;
+    top: -10px;
+    left: 17px;
+}
+
+
+.radio-group{
+    margin-bottom:25px;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    
+}
+#homepage{
+    background: url(img/18.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#registerhome{
+    background-color: #EADDCA;
+}
+#loginhome{
+    background-color: #EADDCA;
+}
+.home .content {
+    max-width: 1200px;
+    color: black;
+}
+
+.content h2 {
+    font-size: 2.7em;
+    letter-spacing: .03em;
+    margin-left: 120px;
+}
+
+.content p {
+    margin: 10px 150px 50px;
+}
+
+.content a {
+    color: #80461B;
+    text-decoration: none;
+    border: 2px solid #80461B;
+    border-radius: 40px;
+    font-weight: 500;
+    padding: 10px 40px;
+    transition: .5s;
+    margin-left: 500px;
+}
+
+.content a:hover {
+    background: #F2D2BD;
+}
+
+.remember {
+    margin: -5px 0 15px 5px;
+}
+
+.remember label {
+    color: black;
+    font-size: 14px;
+}
+.remember label input {
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.signUp-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    
+}
+
+.signUp-link p {
+color: black;
+
+}
+
+.signUp-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+
+}
+
+.signUp-link p a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.sec-01{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #111222;
+    background-color: #7393B3;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title{
+    font-size: 4em;
+    margin-bottom: 50px;
+    color: wheat;
+;
+}
+
+.content{
+    position: relative;
+    width: 1150px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.content .image{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden; 
+}
+ 
+.content .image img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content .text-box{
+    z-index: 222;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 700px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+    
+
+}
+
+.content .text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 11111;
+}    
+
+.hero-text {
+    text-align: center;
+    color: #333;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+
+
+    
