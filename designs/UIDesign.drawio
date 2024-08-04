@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="Gxg6jXFLXXl_f_FL0psv" name="Page-1">
+        <mxGraphModel dx="1027" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Navigation Bar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="30" width="560" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Email" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="160" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Employee Registration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="100" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="First Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="210" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Last Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="260" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Phone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="310" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Salary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="360" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Date of Birth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="410" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.calendar;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="416" y="415" width="26" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="male" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=1;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;sketch=0;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="462" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="female" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;sketch=0;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="367" y="462" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Register" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="303.5" y="500" width="93" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
