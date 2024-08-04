@@ -14,7 +14,7 @@
       <a class="navbar-brand" href="index.html" style="display: flex; align-items: center;">
         <img src="img/16.png" alt="Logo" width="150px" height="50px">
       </a>
-      <h3 class="sublogo">- Your Ultimate Notes and Task Management Solution -</h3>
+      <h3 class="sublogo"></h3>
       <div class="navbar">
           <a href="index.html">Home</a>
           <a href="register.php">Register</a>
