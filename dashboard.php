@@ -37,12 +37,7 @@
     <img src="img/16.png" alt="Logo" width="150px" height="50px">
     <!-- <h1 style="color: wheat; margin-left: 10px;">TASK</h1> -->
   </a>
-<<<<<<< HEAD
   <h3 class="sublogo"></h3>
-=======
-
-  <h3 class="sublogo">- Your Ultimate Notes and Task Management Solution -</h3>
->>>>>>> 1354eca54245ede586af89103dd8e0bb816fdb76
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="register.php">Register</a>
